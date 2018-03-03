@@ -106,7 +106,24 @@ form {
 .form-footer a:hover {
   border-bottom: 1px dotted #8c8c8c;
 }
-  #icon { font-size:12px; }
+  .sankou-badge, .link-badge {
+  padding: 3px 6px;
+  margin-right: 8px;
+  margin-left: 1px;
+  font-size: 75%;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 3px #ddd;
+  white-space: nowrap;
+}
+
+.link-badge {
+  background-color: #58ACFA; /*青*/
+}
+
+.sankou-badge {
+  background-color: #04B404; /*緑*/
+}
 </style>
 </head>
 
@@ -119,7 +136,7 @@ form {
   <div class="form-footer">
       <p>さくたつのシステム開発スペース</p>
     <p>
-      <a href="https://twitter.com/ta_tsuya11"><span class="fab fa-twitter" style="font-size:15px;"></span></a>
+      <span class="link-badge">SNS</span>　<a href="https://twitter.com/ta_tsuya11">Twitter</a>
     </p>
     <p style="font-size:10px;">Provided Server by Github.</p>
   </div>
